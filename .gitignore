@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Generated reports contain local folder paths - never commit them
+reports/*
+!reports/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+
+# Logs and tooling
+*.log
+npm-debug.log*
+coverage/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
